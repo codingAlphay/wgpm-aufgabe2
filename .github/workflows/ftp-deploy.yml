@@ -20,5 +20,5 @@ jobs:
         username: ${{ secrets.FTP_USERNAME }}
         password: ${{ secrets.FTP_PASSWORD }}
         local-dir: ./
-        server-dir: /html/aksu # Ziel 
+        server-dir: /html/aksu/ # Ziel 
         dangerous-clean-slate: true  # Löscht bestehende Inhalte
